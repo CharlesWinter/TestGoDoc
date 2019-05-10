@@ -7,3 +7,7 @@ import "fmt"
 func ExportedFunction() {
 	fmt.Println("vim-go")
 }
+
+func AnotherExportedFunction() {
+	fmt.Println("its another function")	
+}
